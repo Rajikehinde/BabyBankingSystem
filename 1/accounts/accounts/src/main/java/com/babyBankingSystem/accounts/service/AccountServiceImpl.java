@@ -101,7 +101,7 @@ public class AccountServiceImpl implements IAccountService{
     }
 
     /**
-     * 
+     *
      * @param mobileNumber
      * @return
      */
@@ -132,6 +132,5 @@ public class AccountServiceImpl implements IAccountService{
         customer.setCreatedBy("Anonymous");
         customer.setCreatedAt(LocalDateTime.now());
         return newAccount;
-
     }
 }
