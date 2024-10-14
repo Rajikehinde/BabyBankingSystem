@@ -1,4 +1,4 @@
-package com.babyBankingSystem.accounts.dto;
+package com.babyBanking.loans.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
@@ -18,20 +18,20 @@ public class ErrorResponseDto {
     @Schema(
             description = "API path invoked by client"
     )
-    private String apiPath;  //api failure reason(The api causing err)
+    private  String apiPath;
 
     @Schema(
             description = "Error code representing the error happened"
     )
-    private HttpStatus errorCode; // errorCode failure reason
+    private HttpStatus errorCode;
 
     @Schema(
             description = "Error message representing the error happened"
     )
-    private String errorMessage; // error message
+    private  String errorMessage;
 
     @Schema(
             description = "Time representing when the error happened"
     )
-    private LocalDateTime errorTime; //Time of error
+    private LocalDateTime errorTime;
 }
