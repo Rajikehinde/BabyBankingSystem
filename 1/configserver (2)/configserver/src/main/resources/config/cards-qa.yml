@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to BabyBanking cards related qa APIs"
+  contactDetails:
+    name: "phone-qa"
+    email: "phone@gmail.com"
+  onCallSupport:
+    - (576) 531-7333
+    - (093) 072-9223

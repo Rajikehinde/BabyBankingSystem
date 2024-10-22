@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to BabyBanking loans related qa APIs"
+  contactDetails:
+    name: "bola-qa"
+    email: "bola@gmail.com"
+  onCallSupport:
+    - (909) 768-3245
+    - (919) 761-3049

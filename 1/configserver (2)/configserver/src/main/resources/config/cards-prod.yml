@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to BabyBanking cards related prod APIs"
+  contactDetails:
+    name: "light-prod"
+    email: "light@gmail.com"
+  onCallSupport:
+    - (115) 535-7583
+    - (987) 600-9493

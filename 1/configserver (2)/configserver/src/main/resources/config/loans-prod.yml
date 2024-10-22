@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to BabyBanking loans related prod APIs"
+  contactDetails:
+    name: "aremu-prod"
+    email: "aremu@gmail.com"
+  onCallSupport:
+    - (101) 111-3435
+    - (121) 251-3885

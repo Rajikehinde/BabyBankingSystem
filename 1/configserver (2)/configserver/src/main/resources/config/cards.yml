@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to BabyBanking cards related local APIs"
+  contactDetails:
+    name: "kenny-Developer"
+    email: "kenny@gmail.com"
+  onCallSupport:
+    - (555) 535-7583
+    - (123) 672-9483

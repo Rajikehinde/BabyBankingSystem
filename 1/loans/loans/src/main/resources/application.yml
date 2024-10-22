@@ -21,5 +21,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-#  config:
-#    import: "optional:configserver:http://localhost:8071/"
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

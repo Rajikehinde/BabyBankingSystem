@@ -1,0 +1,12 @@
+#spring.application.name=accounts
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to babyBanking accounts related local APIs"
+  contactDetails:
+    name: "Raji - Developer"
+    email: "kehinderaji29@gmail.com"
+  onCallSupport:
+    -(+234)485-485
+    -(+234)598-284

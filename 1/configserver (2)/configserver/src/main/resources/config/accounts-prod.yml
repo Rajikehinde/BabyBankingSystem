@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to babyBanking accounts related rod APIs"
+  contactDetails:
+    name: "Ola - Developer"
+    email: "Olaraji29@gmail.com"
+  onCallSupport:
+    -(+234)475-485
+    -(+234)398-284

@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to BabyBanking loans related local APIs"
+  contactDetails:
+    name: "kenny-Developer"
+    email: "kenny@gmail.com"
+  onCallSupport:
+    - (939) 754-7384
+    - (273) 859-3033
