@@ -3,13 +3,24 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+#    active: native
+    active: git
   cloud:
     config:
       server:
         native:
-#          search-location: "classpath:/config"
-          search-location: "file:///C://Users//Kehinde.Raji//Documents//config"
+#          search-locations: "classpath:/config"
+#          search-locations: "file:///C://Users//Kehinde.Raji//Documents//config"
+        git:
+          uri: "https://github.com/Rajikehinde/BabyBankingSystem.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+git
+#encrypt:
+#  key: "ihh4838djsjhd493kdnjei38493mdi302oeo34564wjdkw03j"
 
 server:
   port: 8071
