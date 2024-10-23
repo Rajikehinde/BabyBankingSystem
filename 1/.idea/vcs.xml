@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configserver (2)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configserver (2)/babyBanking-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/configserver (2)/configserver" vcs="Git" />
   </component>
 </project>
